@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: #F0F2F5;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.hero {
+    width: 60%;
+    height: 100%;
+    position: relative;
+
+}
+
+.sub-hero {
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    margin: 49px;
+    width: 100%;
+}
+
+.theform {
+    width: 35%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.sub-theform {
+    width: 85%;
+    position: absolute;
+}
+
+.login-btn {
+    width: 85%;
+    background-color: #1877F2;
+    border: none;
+    padding: 13px;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.theform p {
+    text-align: center;
+}
+
+.input {
+    width: 85%;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input [type="text"] {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 206, 206);
+}
+
+.input [type="password"] {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 206, 206);
+}
+
+
+
+.hero h1 {
+    color: #0866FF;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.hero p {
+    width: 100%;
+    height: auto;
+    color: #222;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    font-family: Helvetica, Arial, sans-serif;
+    ;
+}
+
+.align-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.create-btn {
+    width: 50%;
+    background-color: #42B72A;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.fp {
+    padding: 15px;
+    text-decoration: none;
+}
+
+.fp a {
+    text-decoration: none;
+}
+
+
+.hr {
+    width: 85%;
+    height: 1px;
+    background: rgb(219, 213, 213);
+}
+
+.cp {
+    margin-top: 10px;
+    color: 000;
+    font-weight: 100;
+}
+
+.cp a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 900;
+}
+
+.main2 {
+    background-color: #FFFFFF;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    height: 350px;
+}
+
+@media (max-width : 790px) {
+    .main{
+   display: flex;
+   flex-direction: column;
+    }
+}
